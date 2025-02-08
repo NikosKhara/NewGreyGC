@@ -1,0 +1,32 @@
+
+.header-filling{
+    width:100rem;
+}
+
+.conte{
+    width:fit-content;
+    display: grid;
+    grid-template-columns: 5rem 9rem 6rem;
+    grid-template-rows: auto;
+    gap: 10px;
+    padding-top: 3.5rem;
+}
+
+.header-nav{
+    display: flex;
+}
+
+.fill-logo{
+    padding-top:2.5rem;
+    padding-left:none !important;
+}
+
+.nav-link{
+    font-size: 17px;
+    font-weight:5;
+    color:black;
+}
+
+.nav-link:hover{
+    color:black;
+}
