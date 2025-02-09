@@ -45,11 +45,14 @@
 }
 
 .row-img{
-    height:29rem;
+    height:23.5rem;
+    max-width: 26rem;
 }
 
 .p-rows{
     place-self: center;
+    font-weight:100;
+    font-size: 17px;
 }
 
 .row-1-body{
