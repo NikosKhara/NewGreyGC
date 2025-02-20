@@ -67,14 +67,28 @@
     padding-top:3rem;
 }
 
-.row-1-body{
+
+/* .row-1-body{
     width:fit-content;
     display: grid;
     grid-template-columns:fit-content fit-content fit-content;
     grid-template-rows: auto;
     gap: 30px;
     display: flex;
-}
+    overflow: hidden;
+    place-self: center;
+} */
+
+/* @media only screen and (max-width: 1100px) {
+    .row-1-body {
+        grid-template-rows: 10rem ;
+        overflow: hidden;
+    }
+    .rep-row{
+        width:30rem;
+        overflow: hidden;
+    }
+  } */
 
 .row-img{
     height:auto;
@@ -86,8 +100,4 @@
     font-family: FuturaPT;
     font-size: 16px;
     letter-spacing: .275rem;
-}
-
-.row-1-body{
-    place-self: center;
 }
